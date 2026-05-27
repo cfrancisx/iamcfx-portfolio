@@ -9,6 +9,11 @@
     --transition: all 0.3s ease;
 }
 
+@font-face {
+    font-family: 'homework signature';
+    src: url('./fonts/Homework\ Signature.ttf') format('truetype');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -64,13 +69,13 @@ header.scrolled {
     color: var(--text);
     text-decoration: none;
     position: relative;
-    font-family: homework signature, cursive;
+    font-family: 'homework signature', cursive;
 }
 
 .logo span {
     color: rgb(0, 81, 255);
     text-shadow: 0 0 10px rgb(0, 81, 255);
-    font-family: homework signature, cursive;
+    font-family: 'homework signature', cursive;
 }
 
 .nav-links {
