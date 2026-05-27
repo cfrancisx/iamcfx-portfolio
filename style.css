@@ -74,7 +74,7 @@ header.scrolled {
 
 .logo span {
     color: rgb(0, 81, 255);
-    text-shadow: 0 0 10px rgb(0, 81, 255);
+    text-shadow: 0 0 10px rgba(0, 81, 255, 0.192);
     font-family: 'homework signature', cursive;
 }
 
