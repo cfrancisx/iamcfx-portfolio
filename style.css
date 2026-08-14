@@ -99,7 +99,7 @@ header.scrolled {
 }
 
 .nav-links a:hover {
-    color: var(--accent);
+    color: rgb(0, 81, 255);
 }
 
 .nav-links a::after {
@@ -611,6 +611,10 @@ footer {
     text-align: center;
     color: var(--text-secondary);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-title :hover {
+    color:var(--transition)
 }
 
 /* Responsive Design */
