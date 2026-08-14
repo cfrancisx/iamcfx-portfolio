@@ -565,6 +565,21 @@ section {
     box-shadow: 0 5px 15px rgba(0, 240, 255, 0.3);
 }
 
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000; /* your circle background */
+    color: #fff;
+}
+
+.link-label {
+    font-size: 1rem;
+}
+
 .contact-form {
     flex: 1;
 }
